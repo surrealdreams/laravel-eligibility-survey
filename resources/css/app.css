@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-link {
+        @apply mt-2 inline-block bg-opacity-75 px-2 py-1 bg-indigo-700 rounded-md font-bold text-sm text-white hover:bg-indigo-800 active:bg-indigo-900 focus:ring ring-indigo-300 dark:ring-indigo-700;
+    }
+}
